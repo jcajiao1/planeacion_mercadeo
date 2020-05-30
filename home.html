@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./estilos.css">
+
+    
+</head>
+
+<body>
+    <header>
+        <label for="show-menu" class="show-menu"><img src="./img/logo.png" alt="..."></label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul class="navbar" id="menu">
+            <li class="navitem"><a href="">Home</a></li>
+            <li class="navitem"><a href="">estrategias</a></li>
+            <li class="navitem"><a href="">poster</a></li>
+            <li class="navitem home"><img src="./img/logo.png" alt="...">
+            </li>
+        </ul>
+    </header>
+    <!-- //SLIDER -->
+    <!-- contenedor principal -->
+    <div class="container-fluid">
+        <!-- Link Swiper's CSS -->
+        <!-- agrega las propiedades para que se comporte como un slider y/o carrusel  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Carga de los videos por contenedor -->
+                <div id="slide_one" class="swiper-slide">
+                    <img src="./img/11.jpg" controls></img>
+                </div>
+                <div id="slide_two" class="swiper-slide">
+                    <img src="./img/12.jpg" controls></img>
+                </div>
+                <div id="slide_three" class="swiper-slide">
+                    <img src="./img/13.jpg" controls></img>
+                </div>
+                <div id="slide_four" class="swiper-slide">
+                    <img src="./img/14.jpg" controls></img>
+                </div>
+                <div id="slide_five" class="swiper-slide">
+                    <img src="./img/16.jpg" controls></img>
+                </div>
+                <div id="slide_six" class="swiper-slide">
+                    <img src="./img/17.jpg" controls></img>
+                </div>
+                <div id="slide_seven" class="swiper-slide">
+                    <img src="./img/18.jpg" controls></img>
+                </div>
+                <div id="slide_eight" class="swiper-slide">
+                    <img src="./img/19.jpg" controls></img>
+                </div>
+                <div id="slide_nine" class="swiper-slide">
+                    <img src="./img/20.jpg" controls></img>
+                </div>
+                
+                
+                
+                
+                
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <!-- Swiper JS CONTROLES DEL SLIDER-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                spaceBetween: 30,
+                autoplayDisableOnInteraction: false
+            });
+        </script>
+    </div>
+    <!-- cards -->
+
+    <div id="cartas" class="row">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/interno.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3>analisis externo</h3>
+                <p class="card-text"> politico: <br> Procolombia y ministerion de comercio <br> planean reactivacion de
+                    turismo
+                    <br> economico:<br> activacion economica de <br> la aviacion
+                    <br> social: <br> guias turisticos tendran subsidio <br> dureante el confinamiento
+                    <br>ambiental: <br> Procolombiab realizara 4 planes <br> de reactivacion de turismo
+                    <br> legal: <br> Plan de desarollo de desarrollo y <br> apollo al turismo <br> de equidad y
+                    prioridad
+
+
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/pexels-photo-164527.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="estrategias">estrategias de Precios</h3>
+                <p class="card-text">precio impar:<br>Fijación de precio terminado en 999 <br> para que el cliente a
+                    simple <br>
+                    vista<br> relación con el descuento aplicado.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/pexels-photo-2519790.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="estrategias">estrategia de promocion</h3>
+                <p class="card-text">
+                    Posicionar la campaña <br>"viaja desde casa y prepara tu próximo destino"<br>
+                    Posicionar la campaña <br> "90% más cerca de tu viaje ahorrando con Compensar"<br>
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/pexels-photo-258154.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="estrategias">estrategia de producto</h3>
+                <p class="card-text">-diseñar un plan atractivo <br> para categorias A y B
+                    - crear un plan de referidos <br>para el plan 90% cerca de tu viaje <br>
+                    -implementar<br> la app <br> Lagomar y Lagosol mas cerca de ti <br></p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/pexels-photo-672642.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="estrategias">estrategias de plaza</h3>
+                <p class="card-text">realizar tracking de usuario <br>
+                    invertir en cambios de la pagina <br>
+                    realizar famtrip con agencias <br>
+                    muestra a los <br> comerciales de las agencias <br>
+                    invertir en cambios de pagina <br> <br></p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/numbers-money-calculating-calculation.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3>analisis interno</h3>
+                <p class="card-text"> en el analisis interno se encontro: <br> que los potenciales clientes <br> buscan
+                    a Compensar <br> por los servicios que prestan <br> para las mujeres casadas <br></p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="descripcion">
+        <div class="texto">
+            <p>
+
+                Compensar es una caja de compensación familiar creada hace 42 años en Bogotá, con el fin de brindar
+                bienestar a sus afiliados a través de diferentes servicios subsidiados. En la actualidad cuenta con tres
+                unidades de negocio; Unidad de salud, Unidad de financiamiento y Unidad de Bienestar, y es precisamente
+                en esta última unidad la que se encarga de brindar todos los servicios que permiten brindar bienestar a
+                sus afiliados en términos de recreación, educación, deportes y turismo.
+
+
+            </p>
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tWVSBAaCYk4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="series">
+        <div class="imagen"><img src="/imagenes/bb.jpeg" alt=""></div>
+        <div class="imagen"><img src="/imagenes/Guns_Akimbo-175479849-large.jpg" alt=""></div>
+        <div class="imagen"><img src="/imagenes/Lucifer_Serie_de_TV-145111876-large.jpg" alt=""></div>
+        <div class="imagen"><img src="./imagenes/Captura de pantalla 2020-04-16 a la(s) 12.08.47 p. m..png" alt="">
+        </div>
+        <div class="imagen"><img src="/imagenes/dbs.jpg" alt=""></div>
+        <div class="imagen"><img src="/imagenes/Cartel-de-Elite-en-Netflix-1.jpg" alt=""></div>
+    </div>
+
+    <footer id="footer">
+        <div class="ima">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="text">
+            <div class="derecha">
+                <span>Precios</span>
+                <ol>
+        
+                        <li class="navitem"><a href="">Home</a></li>
+                        <li class="navitem"><a href="">estrategias</a></li>
+                        <li class="navitem"><a href="">poster</a></li>
+
+                    
+                </ol>
+            </div>
+            <div class="izquiera">
+                <p>© Derechos reservados.Compensar</p>
+                <img src="./img/15.jpg" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
